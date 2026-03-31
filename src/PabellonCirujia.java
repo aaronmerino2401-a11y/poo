@@ -3,7 +3,7 @@ public class PabellonCirujia {
 
     private int numero;
     private String especialidad;
-    private Estado estado;
+    public Estado estado;
 
     public PabellonCirujia(int numero, String especialidad) {
         this.numero = numero;
